@@ -1,0 +1,58 @@
+/******************************************
+* PHP/Swiftmailer/jQuery Contact Form Demo
+* @author rlewis37@cnm.edu
+*******************************************/
+header {
+	margin-bottom: 4rem;
+}
+
+footer {
+	padding: 2rem 0;
+	background-color: #333;
+	color: #fff;
+}
+
+footer a,
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+	color: white;
+}
+
+/* navbar styles */
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+ul.navbar-nav {
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.navbar-default .navbar-nav>li>a {
+	text-align: right;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: yellow;
+}
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}

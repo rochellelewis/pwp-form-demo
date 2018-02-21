@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 		<!-- FontAwesome -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,9 +14,9 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 		<title>PWP Form Demo</title>
 	</head>
@@ -29,17 +29,17 @@
 				</div>
 			</header>
 
-			<main class="container">
+			<main class="container pb-5">
 				<div class="row">
-					<div class="col-lg-6">
+					<div class="col-md-6">
 
 						<!-- BEGIN CONTACT FORM -->
 						<form id="contact-form">
 							<div class="form-group">
 								<label for="name">Name</label>
 								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-user"></i>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-user"></i></span>
 									</div>
 									<input class="form-control" type="text" name="name" id="name" placeholder="Your Name">
 								</div>
@@ -47,8 +47,8 @@
 							<div class="form-group">
 								<label for="email">Email</label>
 								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-envelope"></i>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-envelope"></i></span>
 									</div>
 									<input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
 								</div>
@@ -56,8 +56,8 @@
 							<div class="form-group">
 								<label for="subject">Subject</label>
 								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-pencil"></i>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-pencil"></i></span>
 									</div>
 									<input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
 								</div>
@@ -65,15 +65,15 @@
 							<div class="form-group">
 								<label for="message">Message</label>
 								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-comment"></i>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-comment"></i></span>
 									</div>
 									<textarea name="message" rows="5" id="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
 								</div>
 							</div>
 
-							<button class="btn btn-default" type="reset">Reset</button>
 							<button class="btn btn-info" type="submit">Submit</button>
+							<button class="btn btn-default" type="reset">Reset</button>
 						</form>
 						<!-- END CONTACT FORM-->
 

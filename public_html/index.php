@@ -34,41 +34,41 @@
 					<div class="col-md-6">
 
 						<!-- BEGIN CONTACT FORM -->
-						<form id="contact-form">
+						<form id="demo-form">
 							<div class="form-group">
-								<label for="name">Name</label>
+								<label for="demoName">Name</label>
 								<div class="input-group">
 									<div class="input-group-prepend">
 										<span class="input-group-text"><i class="fa fa-user"></i></span>
 									</div>
-									<input class="form-control" type="text" name="name" id="name" placeholder="Your Name">
+									<input class="form-control" type="text" name="demoName" id="demoName" placeholder="Your Name">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="email">Email</label>
+								<label for="demoEmail">Email</label>
 								<div class="input-group">
 									<div class="input-group-prepend">
 										<span class="input-group-text"><i class="fa fa-envelope"></i></span>
 									</div>
-									<input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
+									<input class="form-control" type="email" name="demoEmail" id="demoEmail" placeholder="Your Email">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="subject">Subject</label>
+								<label for="demoSubject">Subject</label>
 								<div class="input-group">
 									<div class="input-group-prepend">
 										<span class="input-group-text"><i class="fa fa-pencil"></i></span>
 									</div>
-									<input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
+									<input class="form-control" type="text" name="demoSubject" id="demoSubject" placeholder="Subject">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="message">Message</label>
+								<label for="demoMessage">Message</label>
 								<div class="input-group">
 									<div class="input-group-prepend">
 										<span class="input-group-text"><i class="fa fa-comment"></i></span>
 									</div>
-									<textarea name="message" rows="5" id="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
+									<textarea name="demoMessage" rows="5" id="demoMessage" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
 								</div>
 							</div>
 

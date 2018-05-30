@@ -45,7 +45,7 @@
 					<div class="col-md-6">
 
 						<!-- BEGIN CONTACT FORM -->
-						<form id="demo-form">
+						<form id="demo-form" method="post" action="php/mailer.php">
 							<div class="form-group">
 								<label for="demoName">Name</label>
 								<div class="input-group">
@@ -87,6 +87,8 @@
 							<button class="btn btn-default" type="reset">Reset</button>
 						</form>
 						<!-- END CONTACT FORM-->
+
+						<div id="output-area"></div>
 
 					</div><!-- /.col-sm-6 -->
 				</div><!-- /.row -->

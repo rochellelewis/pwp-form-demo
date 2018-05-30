@@ -83,6 +83,8 @@
 								</div>
 							</div>
 
+							<div class="g-recaptcha" data-sitekey="6Lf_ZVwUAAAAABkUXBI61Cs7Lxv2FviDufAeIHnE"></div>
+
 							<button class="btn btn-info" type="submit">Submit</button>
 							<button class="btn btn-default" type="reset">Reset</button>
 						</form>
